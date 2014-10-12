@@ -1,0 +1,66 @@
+Potion list file
+| ID  | name               |
++-----+--------------------+
+| 1   | Speed              |
+| 2   | Slowness           |
+| 3   | Haste              |
+| 4   | Mining Fatigue     |
+| 5   | Strength           |
+| 6   | Instant Health     |
+| 7   | Instant Damage     |
+| 8   | Jump Boost         |
+| 9   | Nausea             |
+| 10  | Regeneration       |
+| 11  | Resistance         |
+| 12  | Fire Resistance    |
+| 13  | Water Breathing    |
+| 14  | Invisibility       |
+| 15  | Blindness          |
+| 16  | Night Vision       |
+| 17  | Hunger             |
+| 18  | Weakness           |
+| 19  | Poison             |
+| 20  | Wither             |
+| 21  | Health Boost       |
+| 22  | Absorption         |
+| 23  | Saturation         |
+| 24  | Well Fed           |
+| 25  | Regneration        |
+| 26  | Taint Poison       |
+| 27  | potion.hypothermia |
+| 28  | potion.heatstroke  |
+| 29  | potion.frostbite   |
+| 30  | potion.dehydration |
+| 31  | Binding            |
+| 32  | Taint Withdrawl    |
+| 33  | Influenza          |
+| 34  | Pneumonic Plague   |
+| 35  | Malaria            |
+| 36  | Yellow Fever       |
+| 37  | Astigmatism        |
+| 38  | Flux Flu           |
+| 39  | Flux Phage         |
+| 40  | Unnatural Hunger   |
+| 41  | Warp Ward          |
+| 42  | Deadly Gaze        |
+| 43  | Blurred Vision     |
+| 44  | Sun Scorned        |
+| 60  | Tier 1 Medication  |
+| 61  | Tier 2 Medication  |
+| 62  | Carbidopa-Levodopa |
+| 70  | Blood Seal         |
+| 86  | Fire Imbued        |
+| 87  | Wated Imbued       |
+| 89  | Earth Imbued       |
+| 90  | Air Imbued         |
+| 100 | Drowning           |
+| 101 | Boost              |
+| 102 | Whirlwind          |
+| 103 | Inhibit            |
+| 104 | Flight             |
+| 105 | Reciprocation      |
+| 106 | Flame Cloak        |
+| 107 | Ice Cloak          |
+| 108 | Heavy Heart        |
+| 109 | Fire Fuse          |
+| 110 | Planar Binding     |

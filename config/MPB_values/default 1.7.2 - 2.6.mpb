@@ -1,0 +1,568 @@
+# Config file for BalancedExchange's MPB values
+# Any line that starts with a hash is a comment and won't be processed by BalancedExchange
+# Every non-empty, non-comment line must contain 3 tab separated values and optionally a true/false value
+# The first value is the id of the item/block to set with optional :metadata suffix
+# The second value is the amount of matter gained when the item/block is consumed (0 makes it inconsumable)
+# The third value is the amount of matter lost when the item/block is created (0 makes it uncreatable)
+# If the fourth value is provided it will control whether the item/block is dispensable
+# Any negative MPB value will be incremented by 1, so the line "minecraft:dirt -2 -1" would make dirt consumable at -1 MPB and creatable at 0 MPB
+# Undefined MPB values are automatically set to 0, 0, so if both MPB values are 0 you shouldn't include it in this file unless you wish to overwrite mpb values given by another mpb file
+
+# Stone
+minecraft:stone	1	1
+
+# Grass Block
+minecraft:grass	1	0
+
+# tile.dirt.name
+minecraft:dirt	1	1
+
+# Cobblestone
+minecraft:cobblestone	1	1
+
+# Wooden Planks
+minecraft:planks	8	8
+
+# tile.sapling.name
+minecraft:sapling	1	0
+
+# Bedrock
+minecraft:bedrock	0	-123
+
+# tile.sand.name
+minecraft:sand	1	1
+
+# Gravel
+minecraft:gravel	2	2
+
+# Gold Ore
+minecraft:gold_ore	1536	4096
+
+# Iron Ore
+minecraft:iron_ore	192	512
+
+# Coal Ore
+minecraft:coal_ore	32	72
+
+# Wood
+minecraft:log	32	32
+
+# Leaves
+minecraft:leaves	1	0
+
+# Glass
+minecraft:glass	3	3
+
+# Lapis Lazuli Ore
+minecraft:lapis_ore	24	54
+
+# Lapis Lazuli Block
+minecraft:lapis_block	54	54
+
+# Sandstone
+minecraft:sandstone	1	1
+
+# Booster Track
+minecraft:golden_rail	2056	0
+
+# Detector Track
+minecraft:detector_rail	264	0
+
+# Cobweb
+minecraft:web	4	0
+
+# Grass
+minecraft:tallgrass	1	0
+
+# Dead Bush
+minecraft:deadbush	1	0
+
+# Wool
+minecraft:wool	8	8
+
+# tile.flower1.name
+minecraft:yellow_flower	1	0
+
+# tile.flower2.name
+minecraft:red_flower	1	0
+
+# Mushroom
+minecraft:brown_mushroom	12	0
+
+# Mushroom
+minecraft:red_mushroom	12	0
+
+# Block of Gold
+minecraft:gold_block	18432	18432
+
+# Block of Iron
+minecraft:iron_block	2304	2304
+
+# tile.stoneSlab.name
+minecraft:double_stone_slab	1	1
+
+# tile.stoneSlab.name
+minecraft:stone_slab	-1	1
+
+# Bricks
+minecraft:brick_block	32	32
+
+# Moss Stone
+minecraft:mossy_cobblestone	16	16
+
+# Obsidian
+minecraft:obsidian	16	32
+
+# Torch
+minecraft:torch	9	0
+
+# Oak Wood Stairs
+minecraft:oak_stairs	12	12
+
+# Diamond Ore
+minecraft:diamond_ore	8192	16840
+
+# Block of Diamond
+minecraft:diamond_block	73728	73728
+
+# Ladder
+minecraft:ladder	8	0
+
+# Track
+minecraft:rail	96	0
+
+# Stone Stairs
+minecraft:stone_stairs	-1	2
+
+# Redstone Ore
+minecraft:redstone_ore	192	288
+
+# Redstone Torch
+minecraft:redstone_torch	52	0
+
+# Ice
+minecraft:ice	4	0
+
+# Cactus
+minecraft:cactus	32	0
+
+# Clay
+minecraft:clay	32	0
+
+# Fence
+minecraft:fence	24	24
+
+# Pumpkin
+minecraft:pumpkin	32	0
+
+# Netherrack
+minecraft:netherrack	1	1
+
+# Soul Sand
+minecraft:soul_sand	1	1
+
+# Glowstone
+minecraft:glowstone	64	64
+
+# Portal
+minecraft:portal	0	-123
+
+# Jack o'Lantern
+minecraft:lit_pumpkin	41	0
+
+# Stained Glass
+minecraft:stained_glass	4	4
+
+# Stone Bricks
+minecraft:stonebrick	1	1
+
+# Fence Gate
+minecraft:fence_gate	32	32
+
+# Brick Stairs
+minecraft:brick_stairs	48	48
+
+# Stone Brick Stairs
+minecraft:stone_brick_stairs	6	6
+
+# Mycelium
+minecraft:mycelium	16	0
+
+# Nether Brick
+minecraft:nether_brick	4	4
+
+# Nether Brick Fence
+minecraft:nether_brick_fence	4	4
+
+# Nether Brick Stairs
+minecraft:nether_brick_stairs	6	6
+
+# The author of this block was too lazy to set a block name
+minecraft:end_portal	0	-123
+
+# End Portal
+minecraft:end_portal_frame	0	-123
+
+# End Stone
+minecraft:end_stone	64	64
+
+# Redstone Lamp
+minecraft:redstone_lamp	256	0
+
+# tile.woodSlab.name
+minecraft:double_wooden_slab	32	32
+
+# tile.woodSlab.name
+minecraft:wooden_slab	16	16
+
+# Sandstone Stairs
+minecraft:sandstone_stairs	-1	2
+
+# Emerald Ore
+minecraft:emerald_ore	4096	9216
+
+# Block of Emerald
+minecraft:emerald_block	2304	2304
+
+# Spruce Wood Stairs
+minecraft:spruce_stairs	12	12
+
+# Birch Wood Stairs
+minecraft:birch_stairs	12	12
+
+# Jungle Wood Stairs
+minecraft:jungle_stairs	12	12
+
+# tile.cobbleWall.name
+minecraft:cobblestone_wall	2	2
+
+# Block of Redstone
+minecraft:redstone_block	432	432
+
+# Nether Quartz Ore
+minecraft:quartz_ore	32	72
+
+# tile.quartzBlock.name
+minecraft:quartz_block	128	128
+
+# Quartz Stairs
+minecraft:quartz_stairs	192	192
+
+# Activator Track
+minecraft:activator_rail	264	0
+
+# tile.clayHardenedStained.name
+minecraft:stained_hardened_clay	32	32
+
+# Leaves
+minecraft:leaves2	1	0
+
+# Wood
+minecraft:log2	32	32
+
+# Acacia Wood Stairs
+minecraft:acacia_stairs	12	12
+
+# Dark Oak Wood Stairs
+minecraft:dark_oak_stairs	12	12
+
+# Hay Bale
+minecraft:hay_block	162	0
+
+# tile.woolCarpet.name
+minecraft:carpet	12	0
+
+# Hardened Clay
+minecraft:hardened_clay	32	32
+
+# Block of Coal
+minecraft:coal_block	288	288
+
+# tile.doublePlant.name
+minecraft:double_plant	1	0
+
+# Flint and Steel
+minecraft:flint_and_steel:0	258	258
+
+# Apple
+minecraft:apple	4	4
+
+# Bow
+minecraft:bow	12	12
+
+# Arrow
+minecraft:arrow	10	10
+
+# Coal
+minecraft:coal	32	32
+
+# Diamond
+minecraft:diamond:0	8192	8192	true
+
+# Diamond
+minecraft:diamond	8192	8192
+
+# Iron Ingot
+minecraft:iron_ingot:0	256	256	true
+
+# Iron Ingot
+minecraft:iron_ingot	256	256
+
+# Gold Ingot
+minecraft:gold_ingot:0	2048	2048	true
+
+# Gold Ingot
+minecraft:gold_ingot	2048	2048
+
+# Stick
+minecraft:stick	4	4
+
+# Bowl
+minecraft:bowl	6	6
+
+# Mushroom Stew
+minecraft:mushroom_stew	30	30
+
+# String
+minecraft:string	4	4
+
+# Feather
+minecraft:feather	4	4
+
+# Gunpowder
+minecraft:gunpowder	4	4
+
+# Seeds
+minecraft:wheat_seeds	4	4
+
+# Wheat
+minecraft:wheat	18	18
+
+# Bread
+minecraft:bread	54	54
+
+# Flint
+minecraft:flint	2	2
+
+# Raw Porkchop
+minecraft:porkchop	25	25
+
+# Cooked Porkchop
+minecraft:cooked_porkchop	32	32
+
+# Golden Apple
+minecraft:golden_apple	1820	1820
+
+# Sign
+minecraft:sign	17	-123
+
+# Wooden Door
+minecraft:wooden_door	48	-123
+
+# Bucket
+minecraft:bucket	768	768
+
+# Water Bucket
+minecraft:water_bucket	768	768
+
+# Lava Bucket
+minecraft:lava_bucket	1024	1024
+
+# Minecart
+minecraft:minecart	1280	1280
+
+# Iron Door
+minecraft:iron_door	1536	-123
+
+# Redstone
+minecraft:redstone	48	48
+
+# Snowball
+minecraft:snowball	1	1
+
+# Boat
+minecraft:boat	40	40
+
+# Leather
+minecraft:leather	12	12
+
+# Milk
+minecraft:milk_bucket	1024	1024
+
+# Brick
+minecraft:brick	8	8
+
+# Clay
+minecraft:clay_ball	8	8
+
+# Sugar Canes
+minecraft:reeds	8	8
+
+# Paper
+minecraft:paper	8	8
+
+# Book
+minecraft:book	36	36
+
+# Slimeball
+minecraft:slime_ball	16	16
+
+# Egg
+minecraft:egg	16	16
+
+# Glowstone Dust
+minecraft:glowstone_dust	16	16
+
+# item.fish.name
+minecraft:fish	25	25
+
+# item.fish.name
+minecraft:cooked_fished	32	32
+
+# item.dyePowder.name
+minecraft:dye	6	6
+
+# Bone
+minecraft:bone	18	18
+
+# Sugar
+minecraft:sugar	8	8
+
+# Cake
+minecraft:cake	854	854
+
+# Bed
+minecraft:bed	48	-123
+
+# Cookie
+minecraft:cookie	5	5
+
+# Shears
+minecraft:shears:0	512	512
+
+# Melon
+minecraft:melon	4	4
+
+# Pumpkin Seeds
+minecraft:pumpkin_seeds	8	8
+
+# Melon Seeds
+minecraft:melon_seeds	4	4
+
+# Raw Beef
+minecraft:beef	25	25
+
+# Steak
+minecraft:cooked_beef	32	32
+
+# Raw Chicken
+minecraft:chicken	24	24
+
+# Cooked Chicken
+minecraft:cooked_chicken	20	20
+
+# Rotten Flesh
+minecraft:rotten_flesh	2	2
+
+# Ender Pearl
+minecraft:ender_pearl	128	128
+
+# Blaze Rod
+minecraft:blaze_rod	144	144
+
+# Ghast Tear
+minecraft:ghast_tear	1024	1024
+
+# Gold Nugget
+minecraft:gold_nugget	227	227
+
+# Nether Wart
+minecraft:nether_wart	16	-123
+
+# Glass Bottle
+minecraft:glass_bottle	2	2
+
+# Spider Eye
+minecraft:spider_eye	24	24
+
+# Fermented Spider Eye
+minecraft:fermented_spider_eye	44	44
+
+# Blaze Powder
+minecraft:blaze_powder	72	72
+
+# Magma Cream
+minecraft:magma_cream	88	88
+
+# Brewing Stand
+minecraft:brewing_stand	147	-123
+
+# Cauldron
+minecraft:cauldron	1792	-123
+
+# Eye of Ender
+minecraft:ender_eye	200	200
+
+# Glistering Melon
+minecraft:speckled_melon	1820	1820
+
+# Fire Charge
+minecraft:fire_charge	36	36
+
+# Emerald
+minecraft:emerald	256	256
+
+# Item Frame
+minecraft:item_frame	44	-123
+
+# Flower Pot
+minecraft:flower_pot	24	-123
+
+# Carrot
+minecraft:carrot	44	44
+
+# Potato
+minecraft:potato	44	44
+
+# Baked Potato
+minecraft:baked_potato	56	56
+
+# Poisonous Potato
+minecraft:poisonous_potato	256	256
+
+# Golden Carrot
+minecraft:golden_carrot	1860	1860
+
+# item.skull.name
+minecraft:skull	2048	-123
+
+# Carrot on a Stick
+minecraft:carrot_on_a_stick	64	64
+
+# Nether Star
+minecraft:nether_star	32784	32784
+
+# Pumpkin Pie
+minecraft:pumpkin_pie	56	56
+
+# Firework Rocket
+minecraft:fireworks	12	12
+
+# Nether Brick
+minecraft:netherbrick	1	1
+
+# Nether Quartz
+minecraft:quartz	32	32
+
+# Lead
+minecraft:lead	32	32
+
+# Block of Stability
+balancedexchange:stability_block	32768	32768
+
+# Block of Reactivity
+balancedexchange:reactivity_block	3	3
+
+# Radiation
+balancedexchange:radiation	-1	8
+

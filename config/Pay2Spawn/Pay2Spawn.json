@@ -1,0 +1,1760 @@
+[
+  {
+    "name": "EXAMPLE",
+    "amount": 2,
+    "countdown": 10,
+    "message": "\u0026a[$name donated $$amount]",
+    "rewards": [
+      {
+        "type": "randomItem",
+        "data": {
+          "tag": {
+            "display": {
+              "Name": "STRING:$name"
+            }
+          }
+        }
+      },
+      {
+        "type": "music",
+        "data": {
+          "song": "STRING:Rickroll.mp3"
+        }
+      },
+      {
+        "type": "structure",
+        "data": {
+          "shapes": [
+            {
+              "center": {
+                "z": "INT:0",
+                "y": "INT:0",
+                "x": "INT:0"
+              },
+              "blockData": [
+                {
+                  "weight": "INT:5",
+                  "blockID": "INT:35"
+                },
+                {
+                  "blockID": "INT:35",
+                  "meta": "INT:5"
+                }
+              ],
+              "hollow": "BYTE:1",
+              "radius": "INT:10",
+              "shape": "STRING:Sphere",
+              "replaceableOnly": "BYTE:1"
+            },
+            {
+              "center": {
+                "z": "INT:5",
+                "y": "INT:-3",
+                "x": "INT:-2"
+              },
+              "blockData": [
+                {
+                  "blockID": "INT:98"
+                },
+                {
+                  "blockID": "INT:98",
+                  "meta": "INT:1"
+                },
+                {
+                  "blockID": "INT:98",
+                  "meta": "INT:2"
+                },
+                {
+                  "blockID": "INT:98",
+                  "meta": "INT:3"
+                }
+              ],
+              "hollow": "BYTE:0",
+              "shape": "STRING:Box",
+              "z": "INT:3",
+              "y": "INT:2",
+              "x": "INT:5",
+              "replaceableOnly": "BYTE:1"
+            },
+            {
+              "center": {
+                "z": "INT:0",
+                "y": "INT:3",
+                "x": "INT:0"
+              },
+              "height": "INT:0",
+              "blockData": [
+                {
+                  "blockID": "INT:99",
+                  "meta": "INT:14"
+                },
+                {
+                  "blockID": "INT:100",
+                  "meta": "INT:14"
+                }
+              ],
+              "hollow": "BYTE:0",
+              "radius": "INT:12",
+              "shape": "STRING:Cylinder",
+              "replaceableOnly": "BYTE:0"
+            },
+            {
+              "center": {
+                "z": "INT:-6",
+                "y": "INT:0",
+                "x": "INT:-2"
+              },
+              "height": "INT:15",
+              "blockData": [
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:0"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:1"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:2"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:3"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:4"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:5"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:6"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:7"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:8"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:9"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:10"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:11"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:12"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:13"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:14"
+                },
+                {
+                  "blockID": "INT:159",
+                  "meta": "INT:15"
+                }
+              ],
+              "hollow": "BYTE:0",
+              "shape": "STRING:Pillar",
+              "replaceableOnly": "BYTE:0"
+            },
+            {
+              "blockData": [
+                {
+                  "tileEntityData": {
+                    "Items": [
+                      {
+                        "id": "SHORT:322",
+                        "Damage": "SHORT:0",
+                        "Count": "BYTE:1",
+                        "Slot": "BYTE:13"
+                      }
+                    ],
+                    "id": "STRING:Chest",
+                    "z": "INT:0",
+                    "y": "INT:0",
+                    "x": "INT:0"
+                  },
+                  "blockID": "INT:54"
+                }
+              ],
+              "shape": "STRING:PointI",
+              "z": "INT:0",
+              "y": "INT:0",
+              "x": "INT:0"
+            },
+            {
+              "blockData": [
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Creeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Skeleton"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Spider"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Zombie"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Slime"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Ghast"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:PigZombie"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Enderman"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:CaveSpider"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Silverfish"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Blaze"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:LavaSlime"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Bat"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Witch"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Pig"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Sheep"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Cow"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Chicken"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Squid"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Wolf"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:MushroomCow"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Ozelot"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:EntityHorse"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:Villager"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:ClayGolem"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:CrackedZombie"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:minegicka3_888"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:minegicka3_Mage"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:teddyNecro"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:NightCrawler"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:IsaacNormal"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:IsaacBlood"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:IsaacHead"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:IsaacBody"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.demon"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.mandrake"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.treefyd"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.hornedHuntsman"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.ent"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.owl"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.toad"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.babayaga"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.covenwitch"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.nightmare"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.spectre"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.poltergeist"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.banshee"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.spirit"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.death"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.witchhunter"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.lordoftorment"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.imp"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.mindrake"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.goblin"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.goblinmog"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:witchery.goblingulg"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:VirusMod.rat"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:VirusMod.doctor"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:DragonMount"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:FireCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:WaterCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:ElectricCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:CookieCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:DarkCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:LightCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:EarthCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:MagmaCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:ReverseCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:IceCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:FriendlyCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:IllusionCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:PsychicCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:SpiderCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:WindCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:HydrogenCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:EnderCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:StoneCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:SolarCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:CakeCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:FireworkCreper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:elementalcreepers:RFCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:GSZombieDog"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:GSZombieCat"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:GSSkeletonDog"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:GSSkeletonCat"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:GSSkullCrawler"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:GSWitherSkullCrawler"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:GSZombieSkullCrawler"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:MB-IronZombie"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:MB-Crawler"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:MB-SuperSlime"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:MB-ForestGuard"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:MB-StealthCreeper"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:MB-Watcher"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:MB-Feeder"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:DEBUG_ENTITY"
+                  },
+                  "blockID": "INT:52"
+                },
+                {
+                  "tileEntityData": {
+                    "id": "STRING:MobSpawner",
+                    "MinSpawnDelay": "SHORT:200",
+                    "RequiredPlayerRange": "SHORT:16",
+                    "Delay": "SHORT:20",
+                    "MaxNearbyEntities": "SHORT:6",
+                    "MaxSpawnDelay": "SHORT:800",
+                    "SpawnRange": "SHORT:4",
+                    "SpawnCount": "SHORT:4",
+                    "EntityId": "STRING:MB-InfernoGolem"
+                  },
+                  "blockID": "INT:52"
+                }
+              ],
+              "shape": "STRING:PointI",
+              "z": "INT:-1",
+              "y": "INT:-2",
+              "x": "INT:-1"
+            }
+          ]
+        }
+      },
+      {
+        "type": "potioneffect",
+        "data": {
+          "Amplifier": "BYTE:0",
+          "Ambient": "BYTE:0",
+          "Duration": "INT:197",
+          "Id": "BYTE:16"
+        }
+      },
+      {
+        "type": "entity",
+        "data": {
+          "CustomName": "STRING:$name",
+          "name": "STRING:$randomEntity",
+          "random": "BYTE:1",
+          "SPAWNRADIUS": "INT:10",
+          "Riding": {
+            "CustomName": "STRING:$name",
+            "name": "STRING:$randomEntity",
+            "RideThisMob": "BYTE:1",
+            "agro": "BYTE:1"
+          },
+          "AMOUNT": "INT:2",
+          "agro": "BYTE:1"
+        }
+      },
+      {
+        "type": "dropitems",
+        "data": {
+          "type": "INT:2"
+        }
+      },
+      {
+        "type": "playermodification",
+        "data": {
+          "amount": "FLOAT:20.0",
+          "operation": "INT:1",
+          "type": "INT:1"
+        }
+      },
+      {
+        "type": "deleteworld",
+        "data": {
+          "message": "STRING:A Pay2Spawn donation deleted the world.\\nGoodbye!"
+        }
+      },
+      {
+        "type": "xporbs",
+        "data": {
+          "amoutOfOrbs": "INT:100"
+        }
+      },
+      {
+        "type": "lightning",
+        "data": {
+          "type": "INT:2",
+          "spread": "INT:10"
+        }
+      },
+      {
+        "type": "item",
+        "data": {
+          "id": "SHORT:322",
+          "Damage": "SHORT:0",
+          "Count": "BYTE:1",
+          "tag": {
+            "display": {
+              "Name": "STRING:$name"
+            }
+          }
+        }
+      },
+      {
+        "type": "command",
+        "data": {
+          "command": "STRING:weather clear"
+        }
+      },
+      {
+        "type": "fireworks",
+        "data": {
+          "id": "SHORT:401",
+          "Damage": "SHORT:0",
+          "Count": "BYTE:1",
+          "tag": {
+            "Fireworks": {
+              "Flight": "BYTE:0",
+              "Explosions": [
+                {
+                  "Type": "BYTE:0",
+                  "Flicker": "BYTE:0",
+                  "Colors": "INT[]:[14188952,8073150]",
+                  "Trail": "BYTE:0"
+                },
+                {
+                  "Type": "BYTE:1",
+                  "Flicker": "BYTE:1",
+                  "Colors": "INT[]:[14188952,8073150]",
+                  "Trail": "BYTE:0"
+                }
+              ]
+            }
+          },
+          "AMOUNT": "INT:10",
+          "RADIUS": "INT:10"
+        }
+      },
+      {
+        "type": "customeentity",
+        "data": {
+          "DropChances": [
+            "FLOAT:0.085",
+            "FLOAT:0.085",
+            "FLOAT:0.085",
+            "FLOAT:0.085",
+            "FLOAT:0.085"
+          ],
+          "Age": "INT:0",
+          "UUIDLeast": "LONG:-7215894496335668964",
+          "Attributes": [
+            {
+              "Name": "STRING:generic.maxHealth",
+              "Base": "DOUBLE:8.0"
+            },
+            {
+              "Name": "STRING:generic.knockbackResistance",
+              "Base": "DOUBLE:0.0"
+            },
+            {
+              "Name": "STRING:generic.movementSpeed",
+              "Base": "DOUBLE:0.30000001192092896"
+            },
+            {
+              "Name": "STRING:generic.followRange",
+              "Base": "DOUBLE:16.0"
+            }
+          ],
+          "Motion": [
+            "DOUBLE:0.0",
+            "DOUBLE:0.0",
+            "DOUBLE:0.0"
+          ],
+          "CustomName": "STRING:",
+          "Health": "SHORT:8",
+          "HealF": "FLOAT:8.0",
+          "agro": "BYTE:1",
+          "CustomNameVisible": "BYTE:0",
+          "id": "STRING:Wolf",
+          "AttackTime": "SHORT:0",
+          "Fire": "SHORT:0",
+          "Sitting": "BYTE:0",
+          "Invulnerable": "BYTE:0",
+          "DeathTime": "SHORT:0",
+          "AbsorptionAmount": "FLOAT:0.0",
+          "Equipment": [
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "InLove": "INT:0",
+          "OnGround": "BYTE:0",
+          "HurtTime": "SHORT:0",
+          "UUIDMost": "LONG:-4373650552216400319",
+          "Dimension": "INT:0",
+          "Air": "SHORT:300",
+          "OwnerUUID": "STRING:",
+          "CollarColor": "BYTE:14",
+          "Pos": [
+            "DOUBLE:0.0",
+            "DOUBLE:0.0",
+            "DOUBLE:0.0"
+          ],
+          "CanPickUpLoot": "BYTE:0",
+          "Angry": "BYTE:0",
+          "PortalCooldown": "INT:0",
+          "PersistenceRequired": "BYTE:0",
+          "Leashed": "BYTE:0",
+          "FallDistance": "FLOAT:0.0",
+          "Rotation": [
+            "FLOAT:4.6728015",
+            "FLOAT:0.0"
+          ]
+        }
+      }
+    ]
+  }
+]

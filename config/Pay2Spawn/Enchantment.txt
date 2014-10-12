@@ -1,0 +1,146 @@
+Enchantment list file
+| ID  | name                                  | minLvl | maxLvl |
++-----+---------------------------------------+--------+--------+
+| 0   | Protection I                          | 1      | 4      |
+| 1   | Fire Protection I                     | 1      | 4      |
+| 2   | Feather Falling I                     | 1      | 4      |
+| 3   | Blast Protection I                    | 1      | 4      |
+| 4   | Projectile Protection I               | 1      | 4      |
+| 5   | Respiration I                         | 1      | 3      |
+| 6   | Aqua Affinity I                       | 1      | 1      |
+| 7   | Thorns I                              | 1      | 3      |
+| 8   | Appealing I                           | 1      | 5      |
+| 9   | Short Cast I                          | 1      | 5      |
+| 16  | Sharpness I                           | 1      | 5      |
+| 17  | Smite I                               | 1      | 5      |
+| 18  | Bane of Arthropods I                  | 1      | 5      |
+| 19  | Knockback I                           | 1      | 2      |
+| 20  | Fire Aspect I                         | 1      | 2      |
+| 21  | Looting I                             | 1      | 3      |
+| 32  | Efficiency I                          | 1      | 5      |
+| 33  | Silk Touch I                          | 1      | 1      |
+| 34  | Unbreaking I                          | 1      | 3      |
+| 35  | Fortune I                             | 1      | 3      |
+| 48  | Power I                               | 1      | 5      |
+| 49  | Punch I                               | 1      | 2      |
+| 50  | Flame I                               | 1      | 1      |
+| 51  | Infinity I                            | 1      | 1      |
+| 52  | Magnetic I                            | 1      | 5      |
+| 53  | Barbed Hook I                         | 1      | 5      |
+| 54  | Long Cast I                           | 1      | 5      |
+| 55  | Double Hook I                         | 1      | 5      |
+| 56  | Heavy Line I                          | 1      | 5      |
+| 61  | Luck of the Sea I                     | 1      | 3      |
+| 62  | Lure I                                | 1      | 3      |
+| 65  | Soul Stealer I                        | 1      | 5      |
+| 66  | Fiery Core I                          | 1      | 4      |
+| 67  | Porcivore I                           | 1      | 5      |
+| 68  | Capitalist I                          | 1      | 1      |
+| 69  | Consuming I                           | 1      | 1      |
+| 70  | Educational I                         | 1      | 5      |
+| 71  | Corrupting I                          | 1      | 1      |
+| 72  | Eternal I                             | 1      | 1      |
+| 75  | Blink I                               | 1      | 3      |
+| 76  | Elemental Affinity I                  | 1      | 1      |
+| 77  | Fall Resistance I                     | 1      | 4      |
+| 78  | Superman I                            | 1      | 3      |
+| 79  | Paraglide I                           | 1      | 2      |
+| 80  | 1 Up I                                | 1      | 3      |
+| 81  | Leapfrog I                            | 1      | 4      |
+| 82  | Never Hungry I                        | 1      | 5      |
+| 83  | Invisibility I                        | 1      | 1      |
+| 84  | Restoration I                         | 1      | 3      |
+| 85  | Resurrection I                        | 1      | 3      |
+| 86  | Sonic the Hedgehog I                  | 1      | 5      |
+| 87  | Spiderman I                           | 1      | 1      |
+| 88  | Step Up I                             | 1      | 3      |
+| 90  | Poison I                              | 1      | 1      |
+| 91  | Quickdraw I                           | 1      | 1      |
+| 93  | Spellbane I                           | 1      | 5      |
+| 94  | Steadfast I                           | 1      | 1      |
+| 95  | Venom I                               | 1      | 2      |
+| 96  | Vorpal I                              | 1      | 1      |
+| 97  | Resurrection I                        | 1      | 1      |
+| 98  | Harvest I                             | 1      | 1      |
+| 100 | Agility I                             | 1      | 1      |
+| 101 | Berserking I                          | 1      | 1      |
+| 102 | Fleetfooted I                         | 1      | 1      |
+| 103 | Knowledge I                           | 1      | 1      |
+| 104 | Mobility I                            | 1      | 1      |
+| 105 | Poison Protection I                   | 1      | 4      |
+| 106 | Cleave I                              | 1      | 3      |
+| 107 | Defusing I                            | 1      | 5      |
+| 108 | Disjunction I                         | 1      | 5      |
+| 109 | Dowsing I                             | 1      | 5      |
+| 110 | Execution I                           | 1      | 1      |
+| 111 | Explosive I                           | 1      | 1      |
+| 112 | Frost I                               | 1      | 1      |
+| 113 | Ice Aspect I                          | 1      | 2      |
+| 114 | Leech I                               | 1      | 1      |
+| 115 | Mending I                             | 1      | 2      |
+| 116 | Holding I                             | 1      | 4      |
+| 125 | Bash Weightless I                     | 1      | 3      |
+| 126 | Bash Power I                          | 1      | 5      |
+| 127 | Bash Damage I                         | 1      | 3      |
+| 128 | Shield Efficiency I                   | 1      | 5      |
+| 129 | Shield Recovery I                     | 1      | 4      |
+| 130 | Bow Luck I                            | 1      | 1      |
+| 131 | Bow Drawnback I                       | 1      | 1      |
+| 136 | Fiery Aura I                          | 1      | 1      |
+| 137 | Chill Aura I                          | 1      | 1      |
+| 140 | Wisdom I                              | 1      | 1      |
+| 141 | Absorb I                              | 1      | 1      |
+| 142 | Ascension I                           | 1      | 3      |
+| 143 | Decay I                               | 1      | 1      |
+| 144 | Descension I                          | 1      | 1      |
+| 145 | Ender Aura I                          | 1      | 1      |
+| 146 | Ender Pulse I                         | 1      | 3      |
+| 147 | Extinction I                          | 1      | 1      |
+| 148 | Feast I                               | 1      | 3      |
+| 149 | Frost Wave I                          | 1      | 1      |
+| 150 | Frozen Aspect I                       | 1      | 3      |
+| 151 | Greed I                               | 1      | 3      |
+| 152 | Ignite I                              | 1      | 3      |
+| 153 | Sparks I                              | 1      | 1      |
+| 154 | Keen Edge I                           | 1      | 3      |
+| 155 | Scorn I                               | 1      | 1      |
+| 156 | Stealth I                             | 1      | 1      |
+| 157 | Venomous Aspect I                     | 1      | 3      |
+| 158 | Vitality I                            | 1      | 1      |
+| 159 | Consuming Shadows I                   | 1      | 3      |
+| 160 | enchantment.SpecialMobs.painBow I     | 1      | 3      |
+| 161 | enchantment.SpecialMobs.painSword I   | 1      | 3      |
+| 162 | enchantment.SpecialMobs.plagueBow I   | 1      | 3      |
+| 163 | enchantment.SpecialMobs.plagueSword I | 1      | 3      |
+| 164 | enchantment.SpecialMobs.poisonBow I   | 1      | 2      |
+| 165 | enchantment.SpecialMobs.poisonSword I | 1      | 1      |
+| 170 | Unlocking I                           | 1      | 5      |
+| 171 | Lockpicking I                         | 1      | 5      |
+| 172 | Morphing I                            | 1      | 5      |
+| 173 | Persistance I                         | 1      | 5      |
+| 174 | Security I                            | 1      | 5      |
+| 175 | Shock I                               | 1      | 3      |
+| 176 | Trigger I                             | 1      | 1      |
+| 180 | Frugal I                              | 1      | 3      |
+| 181 | Haste I                               | 1      | 3      |
+| 182 | Potency I                             | 1      | 3      |
+| 183 | Repair I                              | 1      | 2      |
+| 184 | Treasure I                            | 1      | 3      |
+| 185 | Binding I                             | 1      | 2      |
+| 186 | Disarming I                           | 1      | 3      |
+| 187 | Night Vision I                        | 1      | 1      |
+| 196 | Reading I                             | 1      | 1      |
+| 200 | Ascent Boost I                        | 1      | 4      |
+| 201 | Flaming Touch I                       | 1      | 1      |
+| 202 | Disintegrate I                        | 1      | 1      |
+| 203 | Dispersed Strike I                    | 1      | 5      |
+| 204 | Final Strike I                        | 1      | 5      |
+| 205 | Focused Strike I                      | 1      | 5      |
+| 206 | Pounce I                              | 1      | 5      |
+| 207 | Quick Draw I                          | 1      | 2      |
+| 208 | Shatter I                             | 1      | 5      |
+| 209 | Shockwave I                           | 1      | 5      |
+| 210 | Slow Fall I                           | 1      | 3      |
+| 211 | Tunnel I                              | 1      | 5      |
+| 212 | Valiance I                            | 1      | 5      |
+| 213 | Vampirism I                           | 1      | 2      |
